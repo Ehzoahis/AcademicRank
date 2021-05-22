@@ -11,7 +11,7 @@ Install the package using  ```requirements.txt```
 pip3 install -r requirements.txt
 ```
 
-## Dataset
+## Datasets
 ### Microsoft Academic Graph
 The [Mircosoft Academic Graph](https://www.microsoft.com/en-us/research/project/microsoft-academic-graph/) is a heterogeneous graph containing scientific publication records, citation relationships between those publications and fields of study. The schema of the dataset can be found [here](https://docs.microsoft.com/en-us/academic-services/graph/reference-data-schema). Among those dataset files, we would use:
 - FieldsOfStudy
