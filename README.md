@@ -21,10 +21,10 @@ The [Mircosoft Academic Graph](https://www.microsoft.com/en-us/research/project/
 The downloaded data can be found on owl3 server, [path](server/scratch/pritom/mag-2020-09-14).
 
 ### Springer-83K CS Keywords
-The CS keywords collected from Springer by [Yanghui Pang](yanghui2@illinois.edu). Dataset can be found [here](palceholder)
+The CS keywords collected from Springer by [Yanghui Pang](yanghui2@illinois.edu). Dataset can be found [here](https://github.com/Ehzoahis/AcademicRank/tree/main/dataset).
 
 ## word2vec Model
-The word2vec model is trained on the abstract of papers in  [arXive](https://arxiv.org/) dataset by [Edward Ma](kcma2@illinois.edu). The model can be found [here](placeholder).
+The word2vec model is trained on the abstract of papers in  [arXive](https://arxiv.org/) dataset by [Edward Ma](kcma2@illinois.edu). The model can be found [here](https://github.com/Ehzoahis/AcademicRank/tree/main/word2vec).
 
 ## Usage
 ### Build the Pruned MAG Dataset
@@ -40,7 +40,7 @@ python3 prune_paper_edge.py
 ```
 The resulting file are ```cspapers.txt``` and ```pruned_PR.txt```.
 
-*If any issue exists when running* ```prune_fos.py``` *or* ```prune_paper_edge.py``` *please check the [original codes](placeholder)  which are more stable.*
+*If any issue exists when running* ```prune_fos.py``` *or* ```prune_paper_edge.py``` *please check the [original codes](https://github.com/Ehzoahis/AcademicRank/tree/main/dev_codes/AcademicRank)  which are more stable.*
 
 ### Perform AcademicRank
 The preparation work only need to be done once. To calculate the rank of papers given keywords, do
