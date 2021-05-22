@@ -1,0 +1,20 @@
+python3 build_adjlist.py --in_file ./PaperReferences.txt --out_file ./adjlists/graph1.adjlist --line_start 0 --line_end 83503715 &
+python3 build_adjlist.py --in_file ./PaperReferences.txt --out_file ./adjlists/graph2.adjlist --line_start 83503715 --line_end 167007430 &
+python3 build_adjlist.py --in_file ./PaperReferences.txt --out_file ./adjlists/graph3.adjlist --line_start 167007430 --line_end 250511145 &
+python3 build_adjlist.py --in_file ./PaperReferences.txt --out_file ./adjlists/graph4.adjlist --line_start 250511145 --line_end 334014860 &
+python3 build_adjlist.py --in_file ./PaperReferences.txt --out_file ./adjlists/graph5.adjlist --line_start 334014860 --line_end 417518575 &
+python3 build_adjlist.py --in_file ./PaperReferences.txt --out_file ./adjlists/graph6.adjlist --line_start 417518575 --line_end 501022290 &
+python3 build_adjlist.py --in_file ./PaperReferences.txt --out_file ./adjlists/graph7.adjlist --line_start 501022290 --line_end 584526005 &
+python3 build_adjlist.py --in_file ./PaperReferences.txt --out_file ./adjlists/graph8.adjlist --line_start 584526005 --line_end 668029720 &
+python3 build_adjlist.py --in_file ./PaperReferences.txt --out_file ./adjlists/graph9.adjlist --line_start 668029720 --line_end 751533435 &
+python3 build_adjlist.py --in_file ./PaperReferences.txt --out_file ./adjlists/graph10.adjlist --line_start 751533435 --line_end 835037150 &
+python3 build_adjlist.py --in_file ./PaperReferences.txt --out_file ./adjlists/graph11.adjlist --line_start 835037150 --line_end 918540865 &
+python3 build_adjlist.py --in_file ./PaperReferences.txt --out_file ./adjlists/graph12.adjlist --line_start 918540865 --line_end 1002044580 &
+python3 build_adjlist.py --in_file ./PaperReferences.txt --out_file ./adjlists/graph13.adjlist --line_start 1002044580 --line_end 1085548295 &
+python3 build_adjlist.py --in_file ./PaperReferences.txt --out_file ./adjlists/graph14.adjlist --line_start 1085548295 --line_end 1169052010 &
+python3 build_adjlist.py --in_file ./PaperReferences.txt --out_file ./adjlists/graph15.adjlist --line_start 1169052010 --line_end 1252555725 &
+python3 build_adjlist.py --in_file ./PaperReferences.txt --out_file ./adjlists/graph16.adjlist --line_start 1252555725 --line_end 1336059440 &
+python3 build_adjlist.py --in_file ./PaperReferences.txt --out_file ./adjlists/graph17.adjlist --line_start 1336059440 --line_end 1419563155 &
+python3 build_adjlist.py --in_file ./PaperReferences.txt --out_file ./adjlists/graph18.adjlist --line_start 1419563155 --line_end 1503066870 &
+python3 build_adjlist.py --in_file ./PaperReferences.txt --out_file ./adjlists/graph19.adjlist --line_start 1503066870 --line_end 1586570585 &
+python3 build_adjlist.py --in_file ./PaperReferences.txt --out_file ./adjlists/graph20.adjlist --line_start 1586570585 --line_end 1670074311 

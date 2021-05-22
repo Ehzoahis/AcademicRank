@@ -1,0 +1,1 @@
+python3 verify_kw_rate.py ../. -b mysql+pymysql://haozhes3:hank20si@owl2.cs.illinois.edu/haozhes3_refs?charset=utf8

@@ -1,0 +1,4 @@
+process_cnt 20
+total_file_num 20020143
+in_dir './paper'
+db_url 'mysql+mysqlconnector://haozhes3:hank20si@owl2.cs.illinois.edu/haozhes3_refs?charset=utf8'

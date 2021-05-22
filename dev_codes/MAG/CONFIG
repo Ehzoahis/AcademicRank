@@ -1,0 +1,4 @@
+mysql+pymysql://haozhes3:hank20si@owl2.cs.illinois.edu/haozhes3_refs?charset=utf8
+/scratch/pritom/mag-2020-09-14/mag/PaperReference.txt
+./word2vec/word2vec.model
+./papers.adjlist
