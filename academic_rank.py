@@ -25,7 +25,7 @@ def generate_mid2fid(fid_sim):
 # Rank the papers in linear time by assuming the citation relation is a DAG
 # Take advantage of the form of PaperReferences.txt in the way that all the 
 # same citing papers are put together
-def rank(fname, keyword, kw_fid, alpha=0.15):
+def rank(fname, keyword, kw_fid):
     R = dict()
     fid_sim = cal_sim(keyword)
     mid2fid = generate_mid2fid(fid_sim)
@@ -58,16 +58,16 @@ def rank(fname, keyword, kw_fid, alpha=0.15):
                 child_set = set()
                 sum_j_child = 0
 
-                # only perform once for each paper PPR E term
+                # only perform once for each paper
                 if src not in R.keys() and mid2fid[src] == kw_fid:
-                    R[src] = alpha * fid_sim[mid2fid[src]]
+                    R[src] = 0
 
             # add child to the set for the src         
             child_set.add(dst)
 
-            # only perform once for each paper PPR E term
+            # only perform once for each paper
             if dst not in R.keys():
-                R[dst] = alpha * fid_sim[mid2fid[dst]]
+                R[dst] = 0
             
             # accumulate normalization factor
             sum_j_child += fid_sim[mid2fid[dst]]
