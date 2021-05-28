@@ -2,7 +2,7 @@
 2021SP FORWARD Lab Project
 
 ## Introduction
-The goal of the project is to calculate the rank of academic works given a keyword. The rank will be calculated according to the *Field of Study* of the paper. The ranking algorithm is inspired by [The PageRank Citation Ranking: Bringing Order to the Web](http://ilpubs.stanford.edu:8090/422/), with the assumption that similarity between the papers and the target keywords can only be distributed once to speed up the calculation. Currently, the program can only handle the keyword with multiple words to ensure the accuracy of ranking.
+The goal of the project is to calculate the rank of academic works given a keyword. The rank will be calculated according to the *Field of Study* of the paper. The ranking algorithm is inspired by [The PageRank Citation Ranking: Bringing Order to the Web](http://ilpubs.stanford.edu:8090/422/), with the assumption that similarity between the papers and the target keywords can only be distributed once. Currently, the program can only handle the keyword with multiple words to ensure the accuracy of ranking.
 
 ## Installation
 Install the package using  ```requirements.txt```
