@@ -56,16 +56,16 @@ def rank(fname, keyword, kw_fid, alpha=0.15):
                 child_set = set()
                 sum_j_child = 0
 
-                # only perform once for each paper PPR E term
+                # only perform once for each paper 
                 if src not in R.keys() and mid2fid[src] == kw_fid:
-                    R[src] = alpha * fid_sim[mid2fid[src]]
+                    R[src] = 0
 
             # add child to the set for the src         
             child_set.add(dst)
 
-            # only perform once for each paper PPR E term
-            if dst not in R.keys():
-                R[dst] = alpha * fid_sim[mid2fid[dst]]
+            # only perform once for each paper
+            if dst not in R.keys() and mid2fid[dst] == kw_fid:
+                R[dst] = 0
             
             # accumulate normalization factor
             sum_j_child += fid_sim[mid2fid[dst]]
