@@ -59,15 +59,15 @@ def rank(fname, keyword, kw_fid):
                 child_set = set()
                 sum_j_child = 0
 
-                # only perform once for each paper
+                # only perform for once and only for papers fos containing keyword
                 if src not in R.keys() and mid2fid[src] == kw_fid:
                     R[src] = 0
 
             # add child to the set for the src         
             child_set.add(dst)
 
-            # only perform once for each paper
-            if dst not in R.keys():
+            # only perform for once and only for papers fos containing keyword
+            if dst not in R.keys() and mid2fid[dst] == kw_fid:
                 R[dst] = 0
             
             # accumulate normalization factor
