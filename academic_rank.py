@@ -22,7 +22,8 @@ def generate_mid2fid(fid_sim):
                 max_sim[mid] = fid_sim[fid]
     return mid2fid
 
-# Rank the papers in linear time by assuming the citation relation is a DAG
+# Rank the papers in linear time by assuming the relativity of papers and 
+# the target keywords can only be redistributed once.
 # Take advantage of the form of PaperReferences.txt in the way that all the 
 # same citing papers are put together
 def rank(fname, keyword, kw_fid):
